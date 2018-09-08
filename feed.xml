@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="https://florianwanders.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://florianwanders.github.io/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2018-09-08T20:19:58+02:00</updated><id>https://florianwanders.github.io/</id><title type="html">Florian Wanders</title><subtitle>Data Science &amp; Digressions&amp;#42;</subtitle><author><name>Florian Wanders</name></author><entry><title type="html">test</title><link href="https://florianwanders.github.io/2018/08/02/test.html" rel="alternate" type="text/html" title="test" /><published>2018-08-02T00:00:00+02:00</published><updated>2018-02-06T00:00:00+01:00</updated><id>https://florianwanders.github.io/2018/08/02/test</id><content type="html" xml:base="https://florianwanders.github.io/2018/08/02/test.html">&lt;p&gt;This is a test&lt;/p&gt;</content><author><name>Florian Wanders</name></author><summary type="html">This is a test</summary></entry><entry><title type="html">Summer Institute in Computational Social Science in Helsinki, Finland</title><link href="https://florianwanders.github.io/2018/08/01/SICSS.html" rel="alternate" type="text/html" title="Summer Institute in Computational Social Science in Helsinki, Finland" /><published>2018-08-01T00:00:00+02:00</published><updated>2018-01-08T00:00:00+01:00</updated><id>https://florianwanders.github.io/2018/08/01/SICSS</id><content type="html" xml:base="https://florianwanders.github.io/2018/08/01/SICSS.html">&lt;p&gt;https://stackoverflow.com/a/51454606/4798582&lt;/p&gt;
+
+&lt;p&gt;This summer, I attended the Summer Institute in Computational Social Science in Helsinki, Finland. Here is a look back at two unforgettable weeks. Scroll down to see the resulting app!&lt;/p&gt;
+
+&lt;h2 id=&quot;ethics&quot;&gt;Ethics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Just because some data are public does not mean you can use them in your research. Weigh the risk and benefits of using public data. Consult your ethics board.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;twitter-facebook--co&quot;&gt;Twitter, Facebook, &amp;amp; Co.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;That viral tweet might not be so viral. Instead of mimicking the spread of a virus (right side of the figure below), tweets tend to be broadcast (left). Figure courtesy of Goel, Anderson, Hofman, &amp;amp; Watts &lt;a href=&quot;#Goel2016&quot;&gt;(2016)&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/img/viral_vs_popular.PNG&quot; alt=&quot;image&quot; title=&quot;Viral vs. popular&quot; width=&quot;650px&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People use Facebook and twitter differently. Depending on which data you use, you will arrive at different conclusions &lt;a href=&quot;#Alhabash2017&quot;&gt;(Alhabash &amp;amp; Ma, 2017)&lt;/a&gt;. Oh, and people also call, text, and meet up.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;semantic-analysis&quot;&gt;Semantic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I like visualizations. A lot. Courtesy of Shirakawa &lt;a href=&quot;#Shirakawa2015&quot;&gt;(2015)&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/img/idf.PNG&quot; alt=&quot;image&quot; title=&quot;Inverse document frequency (IDF)&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Struggling to decide on the number of topics in your topic model? Structural topic modeling handles this for you by picking the model with the highest harmonic log-likelihood.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-power-of-combining-data-sets&quot;&gt;The Power of Combining Data Sets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We combined &lt;a href=&quot;https://www.kaggle.com/unsdsn/world-happiness&quot;&gt;data on happiness ratings from kaggle&lt;/a&gt; with &lt;a href=&quot;http://databank.worldbank.org/data/reports.aspx?source=jobs&quot;&gt;data from the world bank&lt;/a&gt; to answer the question of what sets happy countries apart. Neither dataset alone could provide this answer, but by combining the data, we found: employment rates among women was the best predictor.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/img/combine_data.png&quot; alt=&quot;image&quot; title=&quot;Decision Tree from Combined Data&quot; width=&quot;650px&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;survey-sampling&quot;&gt;Survey Sampling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wiki surveys allow hurried people to leave their contribution quickly and engaged users to contribute a lot. Figure courtesy of Salganik &amp;amp; Levy &lt;a href=&quot;#Salganik2015&quot;&gt;(2015)&lt;/a&gt;. Check out allourideas.org for a tool that implements this principle.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/img/wiki-survey.PNG&quot; alt=&quot;image&quot; title=&quot;Wiki surveys&quot; width=&quot;650px&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We can (to some extent) adjust for imbalanced non-probability sampling with post-stratification. E.g., in a linear model in R, simply include &lt;code class=&quot;highlighter-rouge&quot;&gt;weights=weights&lt;/code&gt; in your call to &lt;code class=&quot;highlighter-rouge&quot;&gt;lm&lt;/code&gt;, where the weights is a vector in your data that specifies the weight of each row.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-causality&quot;&gt;On Causality&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Argument: causality is not required for policy decisions. We do not need to understand why the weather forecast predicts rain to decide whether we will take an umbrella. Counter-argument: we should be hesitant to recommend policy decisions that we do not understand. Google’s image tagging algorithms appeared to work fine until it made racist headlines &lt;a href=&quot;#Kasperkevic2015&quot;&gt;(Kasperkevic, 2015)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-algorithmic-bias&quot;&gt;On Algorithmic Bias&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Algorithms that are blind to ethnicity do not exist (predictions will often be comparable whether ethnicity is included or not). Rather, control for ethnicity and then see what explains the remaining variance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-möllki-sauna-and-kajaking&quot;&gt;On Möllki, Sauna, and Kajaking&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Finnish Way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-amazing-people&quot;&gt;On Amazing People&lt;/h2&gt;
+
+&lt;p&gt;A big thank you to the organizers in Finland, &lt;a href=&quot;http://me.mante.li/&quot;&gt;Matti Nelimarkka&lt;/a&gt;, Pihla Toivanen, and Juho Pääkkönen, as well as the coordinators of the summer institute &lt;a href=&quot;https://www.princeton.edu/~mjs3/&quot;&gt;Matthew Salganik&lt;/a&gt; and &lt;a href=&quot;http://www.chrisbail.net/&quot;&gt;Crhis Bail&lt;/a&gt;. And to wonderful friends.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+
+&lt;img src=&quot;https://pbs.twimg.com/media/Df_ffhUWkAEbOsh.jpg:large&quot; /&gt; 
+
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Summer Institute Computational Social Science Helsinki has started! We had a great first day, filled with lectures and discussions. I&amp;#39;m looking forward to what&amp;#39;s to come in the next 2 weeks! &lt;a href=&quot;https://twitter.com/hashtag/SICSS2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#SICSS2018&lt;/a&gt; 
+&lt;/p&gt;
+&amp;mdash; Ilse Pit (@IlsePit) &lt;a href=&quot;https://twitter.com/IlsePit/status/1008770766177996800?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;to-be-continued&quot;&gt;To Be Continued&lt;/h2&gt;
+
+&lt;p&gt;Together with &lt;a href=&quot;https://twitter.com/HannesRosenbusc&quot;&gt;Hannes Rosenbusch&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/IlsePit&quot;&gt;Ilse Pit&lt;/a&gt;, we continued working on our group project after the summer school. You can check out a preview &lt;a href=&quot;https://rosenbusch.shinyapps.io/semantic_net/&quot;&gt;here&lt;/a&gt;. Funny enough, Hannes and I had met a year earlier at the summer school “Decisions, Laws, and the Probability of Big Data”, in Haifa, Israel, but only got to know each other now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ssn_preview.jpg&quot; alt=&quot;image&quot; title=&quot;SSN preview&quot; width=&quot;650px&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Goel2016&quot;&gt;Goel, S., Anderson, A., Hofman, J., &amp;amp; Watts, D. J. (2016). The structural virality of online diffusion. &lt;i&gt;Management Science&lt;/i&gt;, &lt;i&gt;62&lt;/i&gt;(1), 180–196. https://doi.org/10.1287/mnsc.2015.2158&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Alhabash2017&quot;&gt;Alhabash, S., &amp;amp; Ma, M. (2017). A tale of four platforms: motivations and uses of Facebook, Twitter, Instagram, and Snapchat among college students. &lt;i&gt;Social Media + Society&lt;/i&gt;, &lt;i&gt;3&lt;/i&gt;(1), 1–13. https://doi.org/10.1177/2056305117691544&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Shirakawa2015&quot;&gt;Shirakawa, M. (2015). N-gram IDF: A global term weighting scheme based on information distance. &lt;i&gt;24th International World Wide Web Conference&lt;/i&gt;. Retrieved from https://www.slideshare.net/MasumiShirakawa/www-48698138&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Salganik2015&quot;&gt;Salganik, M. J., &amp;amp; Levy, K. E. C. (2015). Wiki surveys: Open and quantifiable social data collection. &lt;i&gt;PLoS ONE&lt;/i&gt;, &lt;i&gt;10&lt;/i&gt;(5), 1–17. https://doi.org/10.1371/journal.pone.0123483&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Kasperkevic2015&quot;&gt;Kasperkevic, J. (2015). Google says sorry for racist auto-tag in photo app. &lt;i&gt;The Guardian&lt;/i&gt;. Retrieved from https://www.theguardian.com/technology/2015/jul/01/google-sorry-racist-auto-tag-photo-app&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Florian Wanders</name></author><summary type="html">https://stackoverflow.com/a/51454606/4798582 This summer, I attended the Summer Institute in Computational Social Science in Helsinki, Finland. Here is a look back at two unforgettable weeks. Scroll down to see the resulting app! Ethics Just because some data are public does not mean you can use them in your research. Weigh the risk and benefits of using public data. Consult your ethics board. Twitter, Facebook, &amp;amp; Co. That viral tweet might not be so viral. Instead of mimicking the spread of a virus (right side of the figure below), tweets tend to be broadcast (left). Figure courtesy of Goel, Anderson, Hofman, &amp;amp; Watts (2016). People use Facebook and twitter differently. Depending on which data you use, you will arrive at different conclusions (Alhabash &amp;amp; Ma, 2017). Oh, and people also call, text, and meet up. Semantic Analysis I like visualizations. A lot. Courtesy of Shirakawa (2015). Struggling to decide on the number of topics in your topic model? Structural topic modeling handles this for you by picking the model with the highest harmonic log-likelihood. The Power of Combining Data Sets We combined data on happiness ratings from kaggle with data from the world bank to answer the question of what sets happy countries apart. Neither dataset alone could provide this answer, but by combining the data, we found: employment rates among women was the best predictor. Survey Sampling Wiki surveys allow hurried people to leave their contribution quickly and engaged users to contribute a lot. Figure courtesy of Salganik &amp;amp; Levy (2015). Check out allourideas.org for a tool that implements this principle. We can (to some extent) adjust for imbalanced non-probability sampling with post-stratification. E.g., in a linear model in R, simply include weights=weights in your call to lm, where the weights is a vector in your data that specifies the weight of each row. On Causality Argument: causality is not required for policy decisions. We do not need to understand why the weather forecast predicts rain to decide whether we will take an umbrella. Counter-argument: we should be hesitant to recommend policy decisions that we do not understand. Google’s image tagging algorithms appeared to work fine until it made racist headlines (Kasperkevic, 2015). On Algorithmic Bias Algorithms that are blind to ethnicity do not exist (predictions will often be comparable whether ethnicity is included or not). Rather, control for ethnicity and then see what explains the remaining variance. On Möllki, Sauna, and Kajaking The Finnish Way. On Amazing People A big thank you to the organizers in Finland, Matti Nelimarkka, Pihla Toivanen, and Juho Pääkkönen, as well as the coordinators of the summer institute Matthew Salganik and Crhis Bail. And to wonderful friends. The Summer Institute Computational Social Science Helsinki has started! We had a great first day, filled with lectures and discussions. I&amp;#39;m looking forward to what&amp;#39;s to come in the next 2 weeks! #SICSS2018 &amp;mdash; Ilse Pit (@IlsePit) June 18, 2018 To Be Continued Together with Hannes Rosenbusch and Ilse Pit, we continued working on our group project after the summer school. You can check out a preview here. Funny enough, Hannes and I had met a year earlier at the summer school “Decisions, Laws, and the Probability of Big Data”, in Haifa, Israel, but only got to know each other now. References Goel, S., Anderson, A., Hofman, J., &amp;amp; Watts, D. J. (2016). The structural virality of online diffusion. Management Science, 62(1), 180–196. https://doi.org/10.1287/mnsc.2015.2158 Alhabash, S., &amp;amp; Ma, M. (2017). A tale of four platforms: motivations and uses of Facebook, Twitter, Instagram, and Snapchat among college students. Social Media + Society, 3(1), 1–13. https://doi.org/10.1177/2056305117691544 Shirakawa, M. (2015). N-gram IDF: A global term weighting scheme based on information distance. 24th International World Wide Web Conference. Retrieved from https://www.slideshare.net/MasumiShirakawa/www-48698138 Salganik, M. J., &amp;amp; Levy, K. E. C. (2015). Wiki surveys: Open and quantifiable social data collection. PLoS ONE, 10(5), 1–17. https://doi.org/10.1371/journal.pone.0123483 Kasperkevic, J. (2015). Google says sorry for racist auto-tag in photo app. The Guardian. Retrieved from https://www.theguardian.com/technology/2015/jul/01/google-sorry-racist-auto-tag-photo-app</summary></entry><entry><title type="html">Zim Wiki</title><link href="https://florianwanders.github.io/2018/06/01/ZimWiki.html" rel="alternate" type="text/html" title="Zim Wiki" /><published>2018-06-01T00:00:00+02:00</published><updated>2018-01-06T00:00:00+01:00</updated><id>https://florianwanders.github.io/2018/06/01/ZimWiki</id><content type="html" xml:base="https://florianwanders.github.io/2018/06/01/ZimWiki.html">&lt;p&gt;&lt;a href=&quot;http://zim-wiki.org/&quot; title=&quot;Zim-Wiki&quot;&gt;Zim&lt;/a&gt; is a fantastic note taking program that allows you to store all your thoughts/notes/ideas and to link between them. Think of your personal Wikipedia, but much more accessible:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/zim-demo.png&quot; alt=&quot;image&quot; title=&quot;Demo of Zim&quot; width=&quot;650px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zim allows me to have all my notes in one place, from my trip to Finland that I planned this summer, over the papers I am working on, to my favorite recipes. Even better, I can link between entries. For example, when I write down ideas for a project in one entry, I can link to more detailed entries about components of that project in other entries.&lt;/p&gt;
+
+&lt;h2 id=&quot;download-zim&quot;&gt;Download Zim&lt;/h2&gt;
+
+&lt;p&gt;You can download the free and open-source software zim &lt;a href=&quot;http://zim-wiki.org/downloads.html&quot; title=&quot;Download Zim&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tips--tweaks&quot;&gt;Tips &amp;amp; Tweaks&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;As much as I love zim, I am not a friend of bright green headers. On Windows, navigate to (or create) the folder &lt;code class=&quot;highlighter-rouge&quot;&gt;C:/Users/usr/AppData/Roaming/zim/config/zim/profiles/Notes&lt;/code&gt; and copy the file &lt;code class=&quot;highlighter-rouge&quot;&gt;style.conf&lt;/code&gt; from &lt;code class=&quot;highlighter-rouge&quot;&gt;C:/Program Files (x86)/Zim Desktop Wiki/data&lt;/code&gt; into this folder. Then open the copied file (e.g., in &lt;a href=&quot;https://notepad-plus-plus.org/download/v7.5.6.html&quot; title=&quot;Download notepad++&quot;&gt;notepad++&lt;/a&gt;) and change&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  [Tag h1]
+  foreground = #4e9a06
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;into&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  [Tag h1]
+  foreground = #333
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;Also modify the other header tags (h2 through h6) to your linking. Save &lt;code class=&quot;highlighter-rouge&quot;&gt;style.conf&lt;/code&gt;, close and re-open zim and enjoy a calmer interface (or perhaps you changed the colors from bright green to neon red). See also my post on &lt;a href=&quot;https://superuser.com/a/1262056/534265&quot; title=&quot;superuser&quot;&gt;superuser&lt;/a&gt; for more info and links to Linux.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To be able to copy images from one entry to another (say you want to restructure parts of your wiki), make sure you store all images outside of your notebook. In my case, I added a folder &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; into the folder &lt;code class=&quot;highlighter-rouge&quot;&gt;ZimNotebooks&lt;/code&gt;, which already contained the folder &lt;code class=&quot;highlighter-rouge&quot;&gt;Notebook&lt;/code&gt; (where my notes are stored). Two more tips:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;You can resize images in zim by right-clicking and then selecting &lt;code class=&quot;highlighter-rouge&quot;&gt;Edit Properties&lt;/code&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Give images descriptive names, e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;effect-sizes.png&lt;/code&gt; for an image with an overview of effect sizes.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The last entry in my wiki is &lt;code class=&quot;highlighter-rouge&quot;&gt;shortcuts&lt;/code&gt;. I copied some commands that I use frequently from &lt;a href=&quot;http://zim-wiki.org/manual/Help/Wiki_Syntax.html&quot; title=&quot;Zim syntax&quot;&gt;here&lt;/a&gt; and from &lt;a href=&quot;http://zim-wiki.org/manual/Help/Key_Bindings.html&quot; title=&quot;Zim shortcuts&quot;&gt;here&lt;/a&gt;. Especially in the beginning I found it helpful to have these commands handy (although you can also do completely without and still enjoy zim).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You might realize in shock that you deleted an entry (or even a folder with many entries!) and there seems to be no way to get your content back. Don’t panic, zim works with simple text files. All you have to do is go to your Recycle Bin and restore the entries/folders you deleted and you are good again.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;extras--plugins&quot;&gt;Extras &amp;amp; Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can customize Zim’s preferences under &lt;code class=&quot;highlighter-rouge&quot;&gt;Edit &amp;gt; Preferences&lt;/code&gt;. Under the tab &lt;code class=&quot;highlighter-rouge&quot;&gt;Plugins&lt;/code&gt; you will find a list of handy plugins (activate by ticking the respective check box).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;del&gt;You can use &lt;a href=&quot;https://github.com/grahamrow/zim-mendeley-plugin/blob/master/README.md&quot; title=&quot;Mendeley Plugin for Zim&quot;&gt;this plugin&lt;/a&gt; to use Mendeley in Zim. See &lt;a href=&quot;http://superuser.com/a/1025259/534265&quot; title=&quot;superuser&quot;&gt;here&lt;/a&gt; for more details.&lt;/del&gt; The mendeley plugin (and possibly other plugins) might not work anymore: Graham Rowlands, the developer of zim: “Apologies, I don’t ever use zim anymore, nor can I get it to even launch on macOS Sierra. But, my blind attempt at a fix can be found on the &lt;a href=&quot;https://github.com/grahamrow/zim-mendeley-plugin/issues/6&quot;&gt;fix/ui-issues branch&lt;/a&gt; — let me know if that works.”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can use git as a version control tool for your wiki.  See &lt;a href=&quot;http://zim-wiki.org/manual/Plugins/Version_Control.html&quot; title=&quot;Version Control for Zim&quot;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Florian Wanders</name></author><summary type="html">Zim is a fantastic note taking program that allows you to store all your thoughts/notes/ideas and to link between them. Think of your personal Wikipedia, but much more accessible: Zim allows me to have all my notes in one place, from my trip to Finland that I planned this summer, over the papers I am working on, to my favorite recipes. Even better, I can link between entries. For example, when I write down ideas for a project in one entry, I can link to more detailed entries about components of that project in other entries. Download Zim You can download the free and open-source software zim here. Tips &amp;amp; Tweaks As much as I love zim, I am not a friend of bright green headers. On Windows, navigate to (or create) the folder C:/Users/usr/AppData/Roaming/zim/config/zim/profiles/Notes and copy the file style.conf from C:/Program Files (x86)/Zim Desktop Wiki/data into this folder. Then open the copied file (e.g., in notepad++) and change [Tag h1] foreground = #4e9a06 into [Tag h1] foreground = #333 Also modify the other header tags (h2 through h6) to your linking. Save style.conf, close and re-open zim and enjoy a calmer interface (or perhaps you changed the colors from bright green to neon red). See also my post on superuser for more info and links to Linux. To be able to copy images from one entry to another (say you want to restructure parts of your wiki), make sure you store all images outside of your notebook. In my case, I added a folder images into the folder ZimNotebooks, which already contained the folder Notebook (where my notes are stored). Two more tips: You can resize images in zim by right-clicking and then selecting Edit Properties. Give images descriptive names, e.g., effect-sizes.png for an image with an overview of effect sizes. The last entry in my wiki is shortcuts. I copied some commands that I use frequently from here and from here. Especially in the beginning I found it helpful to have these commands handy (although you can also do completely without and still enjoy zim). You might realize in shock that you deleted an entry (or even a folder with many entries!) and there seems to be no way to get your content back. Don’t panic, zim works with simple text files. All you have to do is go to your Recycle Bin and restore the entries/folders you deleted and you are good again. Extras &amp;amp; Plugins You can customize Zim’s preferences under Edit &amp;gt; Preferences. Under the tab Plugins you will find a list of handy plugins (activate by ticking the respective check box). You can use this plugin to use Mendeley in Zim. See here for more details. The mendeley plugin (and possibly other plugins) might not work anymore: Graham Rowlands, the developer of zim: “Apologies, I don’t ever use zim anymore, nor can I get it to even launch on macOS Sierra. But, my blind attempt at a fix can be found on the fix/ui-issues branch — let me know if that works.” You can use git as a version control tool for your wiki. See here for more details.</summary></entry></feed>

@@ -1,0 +1,1 @@
+Personal website as a cross of [hydeout](https://fongandrew.github.io/hydeout/) and [folio](http://liabogoev.com/-folio), with a touch of [FontAwesome](https://fontawesome.com). 
