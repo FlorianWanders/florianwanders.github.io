@@ -857,13 +857,15 @@ button.disqus-load {
   height: 230px;
   overflow: hidden; }
 
-.thumbnail img {
-  min-width: 600px;
-  height: auto;
-  position: relative;
-  left: -50%;
-  top: -50%; }
-
+/*
+.thumbnail img{
+min-width: 600px;
+height: auto;
+position: relative;
+left: -50%;
+top: -50%;
+}
+*/
 .thumbnail a {
   float: left;
   position: relative;
