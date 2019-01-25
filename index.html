@@ -56,9 +56,52 @@
 
   <body class="index_footer home">
 
-    <div id="sidebar">
+    <style>
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  min-height: 200px;
+  position: relative;
+}
+
+.image-container img {
+background: white;
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 5px;
+  border-radius: 15%;
+  pointer-events: none
+
+}
+
+
+
+
+
+
+</style>
+
+<div id="sidebar">
   <header>
     <div class="site-title">
+		
+		<div class="image-container">
+			 <image class="profile-image" src="img/profile_transparent.png" alt=""/>
+		</div>
+
+	  <div class="whitespace"> </div>
       <a href="/">
         
         Florian Wanders
@@ -178,6 +221,8 @@
 </p>
 
 </div>
+
+
 
     <main class="container footercontainer">
 	
