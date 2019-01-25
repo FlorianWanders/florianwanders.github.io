@@ -56,46 +56,16 @@
 
   <body class="tags">
 
-    <style>
-
-.image-container {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  min-height: 200px;
-  position: relative;
-}
-
-.image-container img {
-background: white;
-  max-height: 150px;
-  max-width: 150px;
-  height: auto;
-  width: auto;
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-  margin: auto;
-  padding: 5px;
-  border-radius: 15%;
-  pointer-events: none
-}
-
-</style>
-
-<div id="sidebar">
+    <div id="sidebar">
   <header>
     <div class="site-title">
 		
-		<div class="image-container">
-			 <image class="profile-image" src="img/profile_transparent.png" alt=""/>
-		</div>
+	  <!-- inserted profile image. CSS in _sass/_layout.scss-->
+	  <div class="image-container">
+		 <image src="img/profile_transparent.png" alt=""/>
+	  </div>
+	  <div class="whitespace-after-image-container"> </div>
 
-	  <div class="whitespace"> </div>
       <a href="/">
         
           <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
