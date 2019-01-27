@@ -705,6 +705,21 @@ body {
     display: table-caption;
     display: -ms-grid;
     -ms-grid-columns: min-content; } }
+/* -----------------------------------------------------------
+  CV glyphicon
+----------------------------------------------------------- */
+#sidebar nav * {
+  display: block;
+  line-height: 1.75; }
+
+#sidebar nav .icon {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 0 0.25em; }
+
+#icon-cv {
+  font-size: 2rem !important; }
+
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
