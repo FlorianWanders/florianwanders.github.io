@@ -573,12 +573,10 @@ body {
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
 
-  #sidebar .site-title {
-    font-size: 1.5rem !important; }
-    #sidebar .site-title a {
-      color: #ffffff; }
-    #sidebar .site-title .back-arrow {
-      display: none; }
+  #sidebar .site-title a {
+    color: #ffffff; }
+  #sidebar .site-title .back-arrow {
+    display: none; }
   #sidebar p.lead, #sidebar header ~ * {
     display: block; }
   #sidebar header ~ nav {
@@ -628,6 +626,7 @@ body {
   flex-flow: column nowrap; }
 
 #sidebar-icon-links {
+  border: 1px solid white;
   max-width: 100%;
   flex-flow: row wrap;
   justify-content: center;
@@ -692,12 +691,22 @@ body {
 @media (min-width: 49rem) {
   .image-container img {
     margin-left: 0 !important;
-    max-height: 200px !important;
-    max-width: 200px !important; }
+    max-height: 170px !important;
+    max-width: 170px !important; }
 
   .whitespace-after-image-container {
-    height: 20px;
-    width: 10px; } }
+    height: 5px;
+    width: 10px; }
+
+  #sidebar .site-title {
+    font-size: 2em !important;
+    width: min-intrinsic;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    display: table-caption;
+    display: -ms-grid;
+    -ms-grid-columns: min-content; } }
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
