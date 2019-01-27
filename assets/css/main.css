@@ -626,11 +626,9 @@ body {
   flex-flow: column nowrap; }
 
 #sidebar-icon-links {
-  border: 1px solid white;
   max-width: 100%;
   flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 1rem; }
+  justify-content: center; }
   @media (min-width: 49rem) {
     #sidebar-icon-links {
       margin-left: -0.25em;
