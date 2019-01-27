@@ -661,6 +661,43 @@ body {
   Flip the orientation of the page by placing the `#sidebar`
   on the right.
 ----------------------------------------------------------- */
+/* -----------------------------------------------------------
+  Profile picture
+----------------------------------------------------------- */
+.image-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  min-height: 200px;
+  position: relative; }
+
+.image-container img {
+  background: white;
+  max-height: 170px;
+  max-width: 170px;
+  height: auto;
+  width: auto;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 5px;
+  border-radius: 15%;
+  pointer-events: none; }
+
+@media (min-width: 49rem) {
+  .image-container img {
+    margin-left: 0 !important;
+    max-height: 200px !important;
+    max-width: 200px !important; }
+
+  .whitespace-after-image-container {
+    height: 20px;
+    width: 10px; } }
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
