@@ -574,7 +574,7 @@ body {
       margin-bottom: 0; }
 
   #sidebar .site-title {
-    font-size: 3.25rem; }
+    font-size: 1.5rem !important; }
     #sidebar .site-title a {
       color: #ffffff; }
     #sidebar .site-title .back-arrow {
