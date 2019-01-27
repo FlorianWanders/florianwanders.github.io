@@ -604,17 +604,7 @@ body {
       padding: 0; }
 
   .content {
-    padding: 0; }
-
-  /* changes for profile picture */
-  .image-container img {
-    margin-left: 0 !important;
-    max-height: 200px !important;
-    max-width: 200px !important; }
-
-  .whitespace-after-image-container {
-    height: 20px;
-    width: 10px; } }
+    padding: 0; } }
 /* -----------------------------------------------------------
   Sidebar links + nav
 ----------------------------------------------------------- */
@@ -699,7 +689,6 @@ body {
   border-radius: 15%;
   pointer-events: none; }
 
-<<<<<<< HEAD
 @media (min-width: 49rem) {
   .image-container img {
     margin-left: 0 !important;
@@ -709,8 +698,6 @@ body {
   .whitespace-after-image-container {
     height: 20px;
     width: 10px; } }
-=======
->>>>>>> 9dbb376463cbedbaf76ab923dfcb4839e6495b0b
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
