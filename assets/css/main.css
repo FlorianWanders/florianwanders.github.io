@@ -495,6 +495,22 @@ body {
   min-width: 100vw;
   min-height: 100vh; }
 
+/*Adjustments to undo blending of portfolio header with navbar */
+@media (max-width: 49rem) {
+  .container {
+    background-image: none !important;
+    background-color: white !important; }
+
+  main.container > header {
+    background-color: white;
+    background-image: none;
+    margin: 2rem 2rem 0rem 2rem; }
+
+  .container > .content {
+    padding: 0.5rem 2rem 5rem 2rem; }
+
+  #sidebar {
+    padding: 1rem 2rem 1rem 2rem !important; } }
 #sidebar {
   flex: 0 0 auto;
   padding: 2rem; }
@@ -532,10 +548,10 @@ body {
 
 .container > header {
   background: transparent;
-  color: white;
+  color: #313131;
   margin: -1.5rem 2rem 2rem; }
   .container > header h1, .container > header h2 {
-    color: white; }
+    color: #313131; }
     .container > header h1:last-child, .container > header h2:last-child {
       margin-bottom: 0; }
 
