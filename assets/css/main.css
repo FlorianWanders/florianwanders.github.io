@@ -916,11 +916,24 @@ button.disqus-load {
   width: 33.33%;
   min-width: 250px;
   height: 250px;
-  float: left;
+  display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
   padding: 10px; }
 
+/* center portfolio projects until 580px, then float left */
+@media (min-width: 580px) {
+  .project {
+    float: left; } }
+/*center again*/
+@media (min-width: 49rem) {
+  .project {
+    float: none;
+    display: inline-block; } }
+/*until 1040px, then float left again*/
+@media (min-width: 1040px) {
+  .project {
+    float: left; } }
 .thumbnail {
   width: 100%;
   height: 230px;
